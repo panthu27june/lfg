@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lifeline Fitness Gym</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: orangered;
+      scroll-behavior: smooth;
+    }
+
+    /* NAVBAR STICKY HEADER */
+    .navbar {
+      position: sticky;
+      top: 0;
+      background-color: black;
+      padding: 15px 0;
+      text-align: center;
+      border-bottom: 5px solid darkgray;
+      z-index: 1000;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .navbar a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: red;
+      font-weight: bold;
+      display: inline-block;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .navbar a:hover {
+      color: blueviolet;
+      transform: scale(1.2);
+    }
+
+    .navbar a:visited { color: white; }
+    .navbar a:active { color: black; }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    img {
+      border-radius: 1000px;
+      border: solid 7px darkgray;
+    }
+
+    .footer {
+      background-color: gray;
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+      border-top: 5px solid darkgray;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+      margin: 5px;
+    }
+
+    .footer img {
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
+      margin: 0 5px;
+      border: none; /* REMOVE BORDER from footer icons */
+    }
+
+    h1, h2, h3 {
+      color: white;
+    }
+
+    table {
+      margin: auto;
+    }
+
+    th {
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#facilities">Facilities Available</a>
+    <a href="#timing">Timing</a>
+    <a href="#package">Package</a>
+    <a href="#includes">Includes</a>
+    <a href="#about">About Us</a>
+  </div>
+
+  <!-- Home -->
+  <section id="home">
+    <h1>WELCOME <br> TO</h1>
+    <img src="https://i.ibb.co/XxFkXzp7/Gym.webp" width="300" height="300" alt="Gym" />
+    <h1>LIFELINE <br> FITNESS GYM</h1>
+    <h2>"YOUR <br> FITNESS <br> OUR <br> RESPONSIBILITY"</h2>
+  </section>
+
+  <!-- Facilities (Original Design) -->
+  <section id="facilities">
+    <h1>Facilities Available</h1>
+    <table>
+      <tr>
+        <th><img src="https://i.ibb.co/SXLtJV3k/Strength.jpg" width="150" height="150"/><h3>STRENGTH</h3></th>
+        <th><img src="https://i.ibb.co/9kLBt70c/Stepper-Aerobics.jpg" width="150" height="150"/><h3>STEPPER AEROBICS</h3></th>
+        <th><img src="https://i.ibb.co/0R6S0SxY/Piloxing.jpg" width="150" height="150"/><h3>PILOXING</h3></th>
+        <th><img src="https://i.ibb.co/bjvptj8z/Floor-Workout.jpg" width="150" height="150"/><h3>FLOOR WORKOUT</h3></th>
+        <th><img src="https://i.ibb.co/93N2SFY1/Physiotherapist.jpg" width="150" height="150"/><h3>PHYSIOTHERAPIST</h3></th>
+      </tr>
+      <tr>
+        <th><img src="https://i.ibb.co/LdHZQyzW/Cardio.webp" width="150" height="150"/><h3>CARDIO</h3></th>
+        <th><img src="https://i.ibb.co/Y414VJZD/Zumba.jpg" width="150" height="150"/><h3>ZUMBA</h3></th>
+        <th><img src="https://i.ibb.co/1J9KwJCv/Tabata.jpg" width="150" height="150"/><h3>TABATA</h3></th>
+        <th><img src="https://i.ibb.co/WvKj61F9/Steam-Bath.jpg" width="150" height="150"/><h3>STEAM BATH</h3></th>
+        <th><img src="https://i.ibb.co/nqkh3Kvv/Personal-Trainer.webp" width="150" height="150"/><h3>PERSONAL TRAINER</h3></th>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Timing -->
+  <section id="timing" style="background-color:black;">
+    <h1 style="background-color: orangered;">MORNING TIMING</h1>
+    <h1>5:30 AM To 11:00 AM <br>(GENTS & LADIES)</h1>
+    <h1 style="background-color: orangered;">LADIES TIMING</h1>
+    <h1>2:00 PM TO 4:00 PM</h1>
+    <h1 style="background-color: orangered;">EVENING TIMING</h1>
+    <h1>4:00 PM TO 10:00 PM <br>(GENTS & LADIES)</h1>
+    <h1 style="background-color: orangered;">SUNDAY TIMING</h1>
+    <h1>6:00 AM TO 11:00 AM</h1>
+  </section>
+
+  <!-- Package -->
+  <section id="package">
+    <h1>PACKAGE</h1>
+    <h2>GYM TRAINING PACKAGE</h2>
+    <p>1 Month – Rs: 3000/-<br>3 Months – Rs: 5000/-<br>6 Months – Rs: 7000/-<br>12 Months – Rs: 12000/-</p>
+    <h2>PERSONAL TRAINING PACKAGE</h2>
+    <h3>LEVEL - 1 (Personal Trainer)</h3>
+    <p>1 Month – Rs: 7000/-<br>3 Months – Rs: 19000/-<br>6 Months – Rs: 37000/-<br>12 Months – Rs: 70000/-</p>
+    <h3>LEVEL - 2 (Certified Trainer)</h3>
+    <p>1 Month – Rs: 9000/-<br>3 Months – Rs: 25000/-<br>6 Months – Rs: 49000/-<br>12 Months – Rs: 94000/-</p>
+    <h3>LEVEL - 3 (Experienced Trainer)</h3>
+    <p>1 Month – Rs: 12000/-<br>3 Months – Rs: 34000/-<br>6 Months – Rs: 67000/-<br>12 Months – Rs: 130000/-</p>
+  </section>
+
+  <!-- Includes -->
+  <section id="includes" style="background-color: black;">
+    <h2 style="background-color: darkgray; color: black;">GROUP TRAINER INCLUDES</h2>
+    <ul style="color: white; text-align: left; max-width: 700px; margin: auto;">
+      <li>GROUP TRAINING.</li>
+      <li>BCA REPORT IN EVERY 60 DAYS.</li>
+      <li>GENERAL TRAINERS IN EACH SECTION.</li>
+      <li>DAY TO DAY WORKOUT SCHEDULE.</li>
+      <li>PROPER GUIDANCE ABOUT WARM UP, WORKOUT AND STRETCHING.</li>
+      <li>GENERAL DIET & CONSULTATION.</li>
+      <li>BIOMETRIC ENTRY.</li>
+      <li>BIGGEST CARDIO SECTION.</li>
+      <li>ALL BODY EQUIPMENTS AVAILABLE.</li>
+      <li>FRIENDLY ENVIRONMENT.</li>
+      <li>BEST GYM VIEW POINT.</li>
+    </ul>
+
+    <h2 style="background-color: darkgray; color: black;">PERSONAL TRAINING INCLUDES</h2>
+    <ul style="color: white; text-align: left; max-width: 700px; margin: auto;">
+      <li>ONE TO ONE TRAINING.</li>
+      <li>CERTIFIED TRAINER.</li>
+      <li>BCA REPORT IN EVERY 45 DAYS.</li>
+      <li>CUSTOM DIET & EXERCISE CHART.</li>
+      <li>100% GUARANTEED RESULT.</li>
+    </ul>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <img src="https://i.ibb.co/XxFkXzp7/Gym.webp" width="200" height="200" alt="Gym"/>
+    <h3>LIFELINE <br> FITNESS GYM</h3>
+    <h1>OUR BRANCHES</h1>
+    <h2>VASTRAL <br> NEW NARODA</h2>
+    <h2>6th & 7th Floor,<br> Naroda Business Point,<br> Haridarshan Cross Road,<br> New Naroda, Ahmedabad.</h2>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <h2>Follow Us</h2>
+    <a href="https://www.youtube.com/@lifelinefitnessgym1845" target="_blank">
+      <img src="https://img.icons8.com/?size=100&id=9a46bTk3awwI&format=png&color=000000"/> YouTube
+    </a><br/>
+    <a href="https://www.instagram.com/lifelinefitnessnaroda/" target="_blank">
+      <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000"/> Instagram
+    </a><br/>
+    <img src="https://img.icons8.com/?size=100&id=9730&format=png&color=000000"/> +91 9904 77 22 40 <br/>
+    <a href="https://lifelinefitnessgym.com/" target="_blank">
+      <img src="https://img.icons8.com/?size=100&id=9918&format=png&color=000000"/> www.lifelinefitnessgym.com
+    </a>
+  </div>
+
+</body>
+</html>
